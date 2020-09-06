@@ -1,0 +1,49 @@
+body {
+  font: #40514e;
+  background-color: #fbfd8a;
+  color: #05dfd7;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-weight: 900;
+  font-size: 5rem;
+}
+#result {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Sacramento", cursive;
+  color: #fa26a0;
+}
+.myButton {
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color: #79bbff;
+  border-radius: 26px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+  margin-top: 3%;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #378de5;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
