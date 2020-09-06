@@ -3,7 +3,7 @@ document.getElementsByTagName("button")[0].style.visibility = "hidden";
 
 document.addEventListener("keydown", (event) => {
   if (event.keyCode === 16) {
-    console.log(event);
+    playSound();
     i++;
   }
   if (i === 5) {
@@ -15,6 +15,11 @@ document.addEventListener("keydown", (event) => {
     i = 0;
   }
 });
+
+function playSound() {
+  let audio = new Audio("yellow.mp3");
+  audio.play();
+}
 
 setInterval(() => {
   i = 0;
