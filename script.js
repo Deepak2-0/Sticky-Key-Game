@@ -3,7 +3,7 @@ document.getElementsByTagName("button")[0].style.visibility = "hidden";
 
 document.addEventListener("keydown", (event) => {
   if (event.keyCode === 16) {
-    playSound("yellow");
+//     playSound("yellow");
     i++;
   }
   if (i === 5) {
